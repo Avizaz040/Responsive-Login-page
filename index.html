@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/04cf90768b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <main>
+    <div class="loginContainer">
+      <div class="column header">
+        <h1>Login</h1>
+        <p>Login with your preferred service</p>
+      </div>
+      <div class="row right_padding">
+        <div class="sub_row box" aria-label="Login with GitHub">
+          <i class="fa-brands fa-github fa-2x"></i>
+          <p>Login with GitHub</p>
+        </div>
+        <div class="sub_row box" aria-label="Login with Google">
+          <i class="fa-brands fa-google fa-xl"></i>
+          <p>Login with Google</p>
+        </div>
+        <div class="sub_row box" aria-label="Login with Apple">
+          <i class="fa-brands fa-apple fa-2x"></i>
+          <p>Login with Apple</p>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="row responsive_column">
+        <div class="column inputArea">
+          <label for="email_input">Email</label>
+          <input type="text" placeholder="E.g. johndoe@gmail.com" value="" id="email_input" aria-label="Type your email" aria-required="true" required>
+        </div>
+        <div class="column inputArea">
+          <label for="key_input">Password</label>
+          <input type="password" placeholder="Enter the password" value="" id="key_input" aria-label="Type your password" aria-required="true" required>
+          <i class="fa-solid fa-eye fa-2xs" id=""></i>
+        </div>
+      </div>
+      <div class="row textAndAnchor">
+        <button id="" class="first">Sign in</button>
+        <p class="second">Forgot email or password? <a href="#">Reset it</a></p>
+      </div>
+      <div class="textAndAnchor singleRow">
+        <p>No account? <a href="#">Create one now</a></p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
